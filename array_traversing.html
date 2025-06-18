@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Traversing</title>
+</head>
+
+<body>
+
+  <input type="text " id="element">
+  <button onclick="getElement()" class="btn">
+    Get Element
+  </button>
+
+  <script>
+    let arr = [1, 2, 3, 45, 6, 6.55, 66, 77, 88];
+    // for (let i = 0; i < arr.length; i++) {
+    //  document.write(`Array ${i} is  ${arr[i]} <br> `)
+
+    // }
+
+    // document.write(`${arr[4]}`)
+
+    function getElement() {
+      let el = document.getElementById('element').value
+      let index = parseInt(el);
+
+      if(isNaN(index )){
+        alert (" Your value in not a Number");
+      } 
+      else if (index < 0) {
+        alert("Your number is a negative value.");}
+        
+        else if (index < arr.length) {
+        alert(arr[index]);
+
+      } 
+      
+      else {
+        alert(" Please Enter Correct Value ");
+      }
+
+
+    }
+  </script>
+</body>
+
+</html>

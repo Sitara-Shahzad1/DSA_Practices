@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insert Element in Array</title>
+</head>
+<body>
+  
+
+
+  <input type="text" id="position" placeholder="Enter Your Position " > 
+  <input type="text" id="newEl" placeholder="Enter your New Element "> 
+
+  <button id = "btn" onclick= "insertEL()" > Add </button>
+
+
+
+
+<script>
+
+// ======================insert normal 
+
+/*
+let arr = [1,2,3,4,5,6,7];
+let newEl = 70;
+let position = 3; 
+
+for(let i = arr.length-1 ; i>= 0 ; i --){
+  console.warn(arr[i]);
+  if(i >= position){
+    arr[i+1] = arr[i];
+
+    if(i == position){
+      arr[i] = newEl;
+    }
+  }
+  
+}
+console.warn(arr);
+*/
+
+// =========================================?  End 
+
+
+//==============================================================Dynamically adding new position 
+
+// const insertEL  = () =>{
+//   let arr = [1,2,3,4,5,6,7];
+// let newEl =  parseInt(document.getElementById('newEl').value); 
+// let position = document.getElementById('position').value ; 
+
+// for(let i = arr.length-1 ; i>= 0 ; i --){
+//   console.warn(arr[i]);
+//   if(i >= position){
+//     arr[i+1] = arr[i];
+
+//     if(i == position){
+//       arr[i] = newEl;
+//     }
+//   }
+  
+// }
+// console.warn(arr);
+  
+// }
+
+///// ======================doing this all by using just splice (position , delete ?  , element )
+
+// let item = [1,2,3,4,5,677,8];
+// let insert = item.splice(2, 0, 2000);
+// console.log(`Inserted item using splice is [${item}]`);
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
