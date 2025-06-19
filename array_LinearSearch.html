@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+   
+      let arr = [1,2,3,4,5,70,7,8,9,10];
+      let item = 70; 
+      let index = undefined;
+
+
+      for(i =0; i<arr.length-1; i++){
+        console.warn(arr[i]);
+        if(arr[i] === item){
+          index = i; 
+          break; 
+        }
+       
+      } console.warn(` index of ${item} is ${index}`); 
+      
+    console.log(arr.indexOf(item)) ; // built in function to find index 
+    
+
+
+  </script>
+</body>
+</html>
