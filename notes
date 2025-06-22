@@ -1,0 +1,8 @@
+space complexity : how much space is occupied = memory = no.og variables ; more variables more complexity 
+
+Time complexity : How much time is taken  = no.of line 
+they should be minor  
+if no.of line should be less to become Excellent program it would be considered as an ideal program 
+
+ // Bubble sorting
+In sorting we have to loop n number of times like if we have array of 4 numbers we have to loop it 4*4 = `16 times and one loop loops n times like in this case it will loop 4 times  so to iterate over 16 times we have to use nested loop 2 times.
